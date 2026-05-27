@@ -1,0 +1,8 @@
+[project]
+name = "telecom-memory"
+version = "0.1.0"
+description = "电信运维智能助手记忆系统"
+requires-python = ">=3.10"
+
+[project.scripts]
+telecom-memory = "src.api.server:main"
